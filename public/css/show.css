@@ -1,0 +1,140 @@
+.show-block {
+    position: absolute;
+    width: 630px;
+    /* min-height: 594px; */
+    min-height: 387px;
+    background: #374050;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    right: -1px;
+}
+
+.show-block h1 {
+    /* MTOK-B2/216-1KT3645-K */
+    position: absolute;
+    width: auto;
+    height: 11px;
+    left: 12px;
+    top: 27px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 11px;
+    /* identical to box height, or 55% */
+    color: #ffffff;
+}
+
+.show-block .title {
+    /* Артикул */
+    position: absolute;
+    width: auto;
+    min-height: 11px;
+    left: 12px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.show-block .title.article {
+    top: 68px;
+}
+
+.show-block .title.name {
+    top: 97px;
+}
+
+.show-block .title.status {
+    top: 126px;
+}
+
+.show-block .title.attr {
+    top: 155px;
+}
+
+.show-block .value {
+    position: absolute;
+    width: auto;
+    min-height: 11px;
+    left: 91px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height, or 100% */
+    color: #ffffff;
+}
+
+.show-block .value.article {
+    top: 68px;
+}
+
+.show-block .value.name {
+    top: 97px;
+}
+
+.show-block .value.status {
+    top: 126px;
+}
+
+.show-block .value.attr {
+    top: 155px;
+}
+
+.show-block .show_block_close {
+    /* Close_round */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 18.5px;
+    top: 15px;
+}
+
+.show-block .delete_product {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 567px;
+    top: 23px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.show-block .delete_product_svg {
+    /* Vector (Stroke) */
+    position: absolute;
+    width: 10px;
+    height: 11px;
+    left: 572px;
+    top: 27px;
+}
+
+.show-block .edit_product {
+    /* Rectangle 88 */
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 545px;
+    top: 23px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.show-block .edit_product {
+    /* Group 7 */
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 545px;
+    top: 23px;
+}
+
+.show-block .edit_product_svg {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+}

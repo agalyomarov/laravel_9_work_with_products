@@ -1,0 +1,502 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    border: 0px;
+    text-decoration: none;
+}
+
+body {
+    background: #000;
+}
+
+.wrapper {
+    position: relative;
+    width: 1440px;
+    height: 1080px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.sidebar {
+    position: absolute;
+    width: 181px;
+    height: 1080px;
+    left: -1px;
+    top: 0px;
+    background: #374050;
+}
+
+.logo-rect {
+    position: absolute;
+    width: 79px;
+    height: 59px;
+    left: -1px;
+    top: 0px;
+    background: #ffffff;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 53px;
+    height: 22.85px;
+    left: 12px;
+    top: 18px;
+}
+
+.erp {
+    /* Enterprise Resource Planning */
+    position: absolute;
+    width: 50px;
+    height: 33px;
+    left: 90px;
+    top: 7px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    /* or 100% */
+    color: #ffffff;
+}
+
+.sidebar .products {
+    /* Продукты */
+    position: absolute;
+    width: 57px;
+    height: 11px;
+    left: 33px;
+    top: 72px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 11px;
+    /* identical to box height, or 92% */
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.wrapper>.products {
+    position: absolute;
+    width: 61px;
+    height: 11px;
+    left: 197px;
+    top: 25px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height, or 100% */
+    color: #ed1c24;
+}
+
+.red_hr {
+    position: absolute;
+    width: 61px;
+    height: 3px;
+    left: 197px;
+    top: 56px;
+    background: #ed1c24;
+}
+
+.wrapper>.fio {
+    position: absolute;
+    width: 123px;
+    height: 11px;
+    left: 1286px;
+    top: 25px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height, or 100% */
+    color: #a6afb8;
+}
+
+.wrapper>.content {
+    position: absolute;
+    width: 1259.87px;
+    height: 1020px;
+    left: 180.13px;
+    top: 59px;
+    background: #f2f6fa;
+}
+
+.wrapper>.content .head {
+    position: absolute;
+    height: 11px;
+    top: 9px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height, or 122% */
+    color: #6e6e6f;
+}
+
+.wrapper>.content .head_1 {
+    width: 41px;
+    left: 17px;
+}
+
+.wrapper>.content .head_2 {
+    width: 48px;
+    left: 169px;
+}
+
+.wrapper>.content .head_3 {
+    width: 33px;
+    left: 319px;
+}
+
+.wrapper>.content .head_4 {
+    width: 48px;
+    left: 470px;
+}
+
+.content>.products {
+    position: absolute;
+    width: 629px;
+    height: auto;
+    top: 28px;
+    background: #ffffff;
+    border-top: 1px solid #c4c4c4;
+}
+
+hr {
+    position: absolute;
+    width: 629px;
+    height: 0px;
+    border: 1px solid #c4c4c4;
+}
+
+.content .products .product {
+    position: relative;
+    min-height: 56px;
+    width: 629px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #c4c4c4;
+    background: #fff;
+}
+
+.content .products .product>* {
+    position: absolute;
+    width: auto;
+    min-height: 11px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    color: #6e6e6f;
+    cursor: pointer;
+}
+
+.content .products .product>.articule {
+    left: 17px;
+}
+
+.content .products .product>.name {
+    left: 169px;
+}
+
+.content .products .product>.status {
+    left: 319px;
+}
+
+.content .products .product>.attribute {
+    left: 470px;
+}
+
+div.add-button {
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 1105px;
+    top: 17px;
+    background: #0fc5ff;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height, or 100% */
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hide,
+.hide-add-block {
+    visibility: hidden;
+    display: none;
+    z-index: -10;
+}
+
+.add-block {
+    position: absolute;
+    width: 630px;
+    min-height: 594px;
+    background: #374050;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    right: 0;
+}
+
+.add-block h1 {
+    position: absolute;
+    width: 175px;
+    height: 11px;
+    left: 12px;
+    top: 27px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 11px;
+    color: #ffffff;
+}
+
+.add-block h2 {
+    position: absolute;
+    width: 66px;
+    height: 11px;
+    left: 12px;
+    top: 254px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 11px;
+    color: #ffffff;
+}
+
+.input-group {
+    position: absolute;
+    width: 472px;
+    height: 30px;
+    left: 12px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.input-group.article {
+    top: 87px;
+}
+
+.input-group.name {
+    top: 149px;
+}
+
+.input-group.status {
+    top: 211px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    padding-left: 9px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.input-group.status i {
+    line-height: 30px;
+    margin-right: 9px;
+    font-size: 14px;
+    color: silver;
+    float: right;
+}
+
+option {
+    background: #50a9fc;
+    height: 30px;
+}
+
+.label-group {
+    position: absolute;
+    width: 35px;
+    height: 11px;
+    left: 12px;
+    top: 68px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #ffffff;
+}
+
+.label-group.article {
+    top: 68px;
+}
+
+.label-group.name {
+    top: 130px;
+}
+
+.label-group.status {
+    top: 192px;
+}
+
+div.select_menu {
+    position: absolute;
+    width: 472px;
+    min-height: 30px;
+    left: 12px;
+    background: #ffffff;
+    border-radius: 0 0 5px 5px;
+    top: 241px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    overflow: hidden;
+}
+
+div.select_menu span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 9px;
+}
+
+div.select_menu span:hover {
+    background: #50a9fc;
+}
+
+.add-attr {
+    position: absolute;
+    width: 84px;
+    height: 11px;
+    left: 12px;
+    top: 482px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #0fc5ff;
+    cursor: pointer;
+}
+
+.button_send_product {
+    position: relative;
+    width: 139px;
+    height: 30px;
+    left: 12px;
+    top: 524px;
+    background: #0fc5ff;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    color: #ffffff;
+}
+
+.content .add-block .attr_1 input,
+.content .add-block .attr_2 input,
+.content .add-block .attr_3 input {
+    position: absolute;
+    width: 219px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.content .add-block .attr_1 label,
+.content .add-block .attr_2 label,
+.content .add-block .attr_3 label {
+    position: absolute;
+    width: 42px;
+    height: 11px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #ffffff;
+}
+
+.content .add-block .attr_1 input#attr_name,
+.content .add-block .attr_2 input#attr_name,
+.content .add-block .attr_3 input#attr_name {
+    left: 12px;
+}
+
+.content .add-block .attr_1 input#attr_value,
+.content .add-block .attr_2 input#attr_value,
+.content .add-block .attr_3 input#attr_value {
+    left: 242px;
+}
+
+.content .add-block .attr_1 label[for="attr_name"],
+.content .add-block .attr_2 label[for="attr_name"],
+.content .add-block .attr_3 label[for="attr_name"] {
+    left: 13px;
+}
+
+.content .add-block .attr_1 label[for="attr_value"],
+.content .add-block .attr_2 label[for="attr_value"],
+.content .add-block .attr_3 label[for="attr_value"] {
+    left: 242px;
+}
+
+.del_attr_1,
+.del_attr_2,
+.del_attr_3 {
+    position: absolute;
+    width: 10px;
+    height: 11px;
+    left: 471px;
+    cursor: pointer;
+}
+
+.del_attr_1 {
+    top: 319px;
+}
+
+.del_attr_2 {
+    top: 381px;
+}
+
+.del_attr_3 {
+    top: 446px;
+}
+
+.content .add-block .attr_1 label {
+    top: 290px;
+}
+
+.content .add-block .attr_1 input {
+    top: 311px;
+}
+
+.content .add-block .attr_2 label {
+    top: 354px;
+}
+
+.content .add-block .attr_2 input {
+    top: 374px;
+}
+
+.content .add-block .attr_3 label {
+    top: 419px;
+}
+
+.content .add-block .attr_3 input {
+    top: 439px;
+}

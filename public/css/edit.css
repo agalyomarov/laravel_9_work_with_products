@@ -1,0 +1,319 @@
+.edit-block {
+    position: absolute;
+    width: 630px;
+    /* min-height: 594px; */
+    min-height: 387px;
+    background: #374050;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    right: -1px;
+}
+
+.edit-block h1 {
+    /* MTOK-B2/216-1KT3645-K */
+    position: absolute;
+    width: auto;
+    height: 11px;
+    left: 12px;
+    top: 27px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 11px;
+    /* identical to box height, or 55% */
+    color: #ffffff;
+}
+
+.edit-block h2 {
+    position: absolute;
+    width: 66px;
+    height: 11px;
+    left: 12px;
+    top: 254px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 11px;
+    /* identical to box height, or 79% */
+    color: #ffffff;
+}
+
+.edit-block .edit_block_close {
+    /* Close_round */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 18.5px;
+    top: 15px;
+}
+
+.edit-block .input-group {
+    position: absolute;
+    width: 472px;
+    height: 30px;
+    left: 12px;
+    /* top: 87px; */
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.edit-block .input-group.article {
+    top: 87px;
+}
+
+.edit-block .input-group.name {
+    top: 149px;
+}
+
+.edit-block .input-group.status {
+    top: 211px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    /* identical to box height, or 100% */
+    padding-left: 9px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.edit-block .input-group.status i {
+    line-height: 30px;
+    margin-right: 9px;
+    font-size: 14px;
+    color: silver;
+    float: right;
+}
+
+.edit-block option {
+    background: #50a9fc;
+    height: 30px;
+}
+
+.edit-block .label-group {
+    position: absolute;
+    width: 35px;
+    height: 11px;
+    left: 12px;
+    top: 68px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height, or 122% */
+    color: #ffffff;
+}
+
+.edit-block .label-group.article {
+    top: 68px;
+}
+
+.edit-block .label-group.name {
+    top: 130px;
+}
+
+.edit-block .label-group.status {
+    top: 192px;
+}
+
+.edit-block div.select_menu {
+    position: absolute;
+    width: 472px;
+    min-height: 30px;
+    left: 12px;
+    background: #ffffff;
+    border-radius: 0 0 5px 5px;
+    top: 241px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.edit-block div.select_menu span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 9px;
+}
+
+.edit-block div.select_menu span:hover {
+    background: #50a9fc;
+}
+
+.edit-block .edit-attr {
+    position: absolute;
+    width: 84px;
+    height: 11px;
+    left: 12px;
+    /* top: 482px; */
+    top: 283px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height, or 122% */
+    color: #0fc5ff;
+    cursor: pointer;
+}
+
+.edit-block .button_send_product {
+    position: relative;
+    width: 139px;
+    height: 30px;
+    left: 12px;
+    /* top: 524px; */
+    top: 316px;
+    background: #0fc5ff;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    /* identical to box height, or 100% */
+    color: #ffffff;
+}
+
+.edit-block .attr_1 input,
+.edit-block .attr_2 input,
+.edit-block .attr_3 input {
+    position: absolute;
+    width: 219px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.edit-block .attr_1 label,
+.edit-block .attr_2 label,
+.edit-block .attr_3 label {
+    position: absolute;
+    width: 42px;
+    height: 11px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #ffffff;
+}
+
+.edit-block .attr_1 input#attr_name,
+.edit-block .attr_2 input#attr_name,
+.edit-block .attr_3 input#attr_name {
+    left: 12px;
+}
+
+.edit-block .attr_1 input#attr_value,
+.edit-block .attr_2 input#attr_value,
+.edit-block .attr_3 input#attr_value {
+    left: 242px;
+}
+
+.edit-block .attr_1 label[for="attr_name"],
+.edit-block .attr_2 label[for="attr_name"],
+.edit-block .attr_3 label[for="attr_name"] {
+    left: 13px;
+}
+
+.edit-block .attr_1 label[for="attr_value"],
+.edit-block .attr_2 label[for="attr_value"],
+.edit-block .attr_3 label[for="attr_value"] {
+    left: 242px;
+}
+
+.edit-block .del_attr_1,
+.edit-block .del_attr_2,
+.edit-block .del_attr_3 {
+    position: absolute;
+    width: 10px;
+    height: 11px;
+    left: 471px;
+    /* background: rgba(196, 196, 196, 0.4); */
+    cursor: pointer;
+}
+
+.edit-block .del_attr_1 {
+    top: 319px;
+}
+
+.edit-block .del_attr_2 {
+    top: 381px;
+}
+
+.edit-block .del_attr_3 {
+    top: 446px;
+}
+
+.edit-block .attr_1 label {
+    top: 290px;
+}
+
+.edit-block .attr_1 input {
+    top: 311px;
+}
+
+.edit-block .attr_2 label {
+    top: 354px;
+}
+
+.edit-block .attr_2 input {
+    top: 374px;
+}
+
+.edit-block .attr_3 label {
+    top: 419px;
+}
+
+.edit-block .attr_3 input {
+    top: 439px;
+}
+
+.svg-1 {
+    /* Vector 48 */
+    position: absolute;
+    left: 75%;
+    right: -25%;
+    top: 25%;
+    bottom: 25%;
+    /* border: 2px solid #c4c4c4; */
+    box-sizing: border-box;
+    border-radius: 2px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.svg-2 {
+    /* Vector 47 */
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    /* border: 2px solid #c4c4c4; */
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.edit-block .add-attr {
+    position: absolute;
+    width: 84px;
+    height: 11px;
+    left: 12px;
+    /* top: 482px; */
+    top: 283px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height, or 122% */
+    color: #0fc5ff;
+    cursor: pointer;
+}
